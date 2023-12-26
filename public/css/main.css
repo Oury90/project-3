@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* photo top baner */
+.photo-baner{
+    width: 100%;
+    height: 270px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/14/22/18/beach-1824855_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.search{
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* top-body */
+.top-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 15px 1rem;
+}
+/* section photo */
+section{
+    width: 100%;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    padding: 0 12px;
+}
+.bottom-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* section video */
+
+
+.embed-responsive{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+
+/* footer content section */
+footer{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    color: #f1f1f1;
+}
+.bg{
+    background-color: rgba(0, 0, 0, .3);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-1{
+    width: 300px;
+    height: 400px;
+    margin-top: 3rem;
+}
